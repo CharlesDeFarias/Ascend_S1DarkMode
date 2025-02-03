@@ -1,0 +1,51 @@
+.dark {
+  color: white;
+  background: black;
+  font-size: 20px;
+  padding: 10px;
+  margin-bottom: 10px;
+  button {
+    background: white;
+    color: black;
+    font-size: 20px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+}
+
+.light {
+  color: black;
+  background: white;
+  font-size: 20px;
+  padding: 10px;
+  margin-bottom: 10px;
+  button {
+    background: black;
+    color: white;
+    font-size: 20px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+}
+
+.error {
+    color: red;
+    background: lightgrey;
+    font-size: 20px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+.success {
+  color: green;
+  background: lightgrey;
+  font-size: 20px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
