@@ -22,7 +22,7 @@ const Portfolio = () => {
         <Projects />
       </main>
       <footer>
-        <p>&copy; 2025 Erica Mendez</p>
+        <p>&copy; 2025 RC Alum</p>
       </footer>
     </div>
   );
