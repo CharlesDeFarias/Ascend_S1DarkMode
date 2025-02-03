@@ -9,7 +9,6 @@
     color: black;
     font-size: 20px;
     padding: 5px 10px;
-    margin-bottom: 10px;
     border-radius: 5px;
   }
   .projectCard{
@@ -28,7 +27,6 @@
     color: white;
     font-size: 20px;
     padding: 5px 10px;
-    margin-bottom: 10px;
     border-radius: 5px;
   }
 }
@@ -50,4 +48,16 @@
 
 div {
   text-align: center;
+}
+
+main, footer {
+  padding-bottom: 3em;
+}
+
+main > section {
+  padding: .2em;
+}
+
+header {
+  padding-bottom: 1.5em;
 }
