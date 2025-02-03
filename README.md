@@ -2,7 +2,7 @@ ${}# Sprint 1: Portfolio
 
 Objective
 
-Your task is to build a portfolio website using React that includes a dark mode and light mode toggle. This project will help you understand state management and component structuring in React.
+Your task is to build a portfolio website using React that includes a dark mode and light mode toggle. This project will help you understand state management and component structuring in React and apply things you learned in part 0 & 1 of FullStackOpen.
 
 Requirements
 
