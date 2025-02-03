@@ -1,12 +1,16 @@
+import projects from "../data/projects"
+import ProjectCard from "./ProjectCard"
+
 const Projects = () => {
     return (
+      
         <section>
           <h2>Projects</h2>
-          <ul>
-            <li>Photography Print Shop with Augmented Reality</li>
-            <li>RC Submit - Submission Platform</li>
-            <li>Custom Jira Plugin</li>
-          </ul>
+          <section className="projectsContainer">
+            {projects.map((project, index) => (
+              <ProjectCard key={index} project={project}/>
+            ))}
+          </section>
         </section>
     )
 }

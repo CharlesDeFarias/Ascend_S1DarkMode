@@ -12,6 +12,9 @@
     margin-bottom: 10px;
     border-radius: 5px;
   }
+  .projectCard{
+    background: darkorchid;
+  }
 }
 
 .light {
@@ -48,4 +51,19 @@
   border-radius: 5px;
   padding: 10px;
   margin-bottom: 10px;
+}
+
+.projectsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.projectCard {
+  width: 300px;
+  padding: 15px;
+  border-radius: 8px;
+  background: lightpink;
+  text-align: center;
 }
