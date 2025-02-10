@@ -1,12 +1,11 @@
 const AboutMe = () => {
     return (
-        <section>
-          <h2>About Me</h2>
+        <div>
+          <h2>About The Illustrious Charles</h2>
           <p>
-            Hello! I'm a Full Stack Developer passionate about building web applications
-            and learning new technologies.
+            Hello! My name is Charles De Farias, I'm a Full Stack Developer & entrepreneur passionate about changing the world and uplifting my family while I do it. Coding is the greatest tool in my belt to do that.
           </p>
-        </section>
+        </div>
     )
 }
 

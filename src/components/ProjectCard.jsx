@@ -1,4 +1,6 @@
 const ProjectCard = ({project}) => {
+  //add fluff text, fake projects for now
+  //add same class darkmode as in other component, even if changing it later, prob makes it easier.
     return(
         <section className="projectCard">
         <h3>{project.title}</h3>
