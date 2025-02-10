@@ -13,7 +13,7 @@ const App = () => {
   const themeMode = isDark ? "dark":"light"
 
   return (
-    <div>
+    <div className= {`parentDiv ${themeMode}`} id="appDiv">
       <Portfolio theme = {themeMode} isDark={isDark} handleToggle={handleToggle} />
     </div>
   );
