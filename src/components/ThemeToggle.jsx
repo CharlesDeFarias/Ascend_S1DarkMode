@@ -1,8 +1,8 @@
 function ThemeToggle({ handleToggle, theme, isDark}) {
     const message = isDark ? "Go ahead, click it and blind yourself" : "Join the dark side and unfurrow that brow"
-    
+
     return (
-        <div id="toggleDiv" className={`parentDiv ${theme} contactCard`}>
+        <div id="toggleDiv" className={`parentDiv ${theme} themeToggle`}>
           <button
             className="btn"
             onClick={handleToggle}

@@ -1,4 +1,4 @@
-const ContactCard = () => {
+const ContactCard = (theme) => {
     return (
         <div className={`parentDiv ${theme} contactCard`} id="contactDiv">
           <h2>Contact The Illustrious Charles</h2>
